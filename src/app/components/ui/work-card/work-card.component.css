@@ -1,0 +1,17 @@
+.company{
+    font-size: 1.1rem;
+    font-family: 'mono-bold';
+}
+
+.role, .period{
+    font-size: 1rem;
+}
+
+.description{
+    color: rgb(111, 111, 111);
+    font-size: 0.85rem;
+}
+
+.job{
+    border-bottom: 1px solid rgb(174, 174, 174);
+}

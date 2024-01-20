@@ -1,0 +1,16 @@
+<div class="job mb-2">
+    <div class="row">
+        <div class="col-8">
+            <h4 class="company">{{job.company}}</h4>
+            <p class="role">{{job.role}}</p>
+        </div>
+        <div class="col-4 text-end">
+            <span class="period">{{job.start}}-{{job.end}}</span>
+        </div>
+    </div>
+    <div class="row">
+        <p class="description" *ngFor="let task of job.tasks">
+            {{task.description}}
+        </p>
+    </div>
+</div>
