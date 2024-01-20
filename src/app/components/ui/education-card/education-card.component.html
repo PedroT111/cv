@@ -1,0 +1,16 @@
+<div class="education mb-2 py-2">
+    <div class="row">
+        <div class="col-8">
+            <h4 class="university">{{education.university}}</h4>
+            <p class="degree">{{education.degree}}</p>
+        </div>
+        <div class="col-4 text-end">
+            <span class="period">{{education.start}}-{{education.end}}</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <app-skill-button *ngFor="let s of education.skills" disabled [skill]="s.name"></app-skill-button>
+        </div>
+    </div>
+</div>

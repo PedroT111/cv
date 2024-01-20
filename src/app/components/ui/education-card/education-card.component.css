@@ -1,0 +1,16 @@
+.education{
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.university{
+    font-size: 1.1rem;
+    font-family: 'mono-bold';
+}
+
+.degree, .period{
+    font-size: 1rem;
+}
+
+span{
+    font-size: 0.85rem;
+}
