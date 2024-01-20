@@ -41,7 +41,7 @@ export const DATA = {
                     description: 'Frontend development of a cryptocurrency website. Utilized technologies such as React, Bootstrap, HTML5, and CSS3 to create an engaging user interface.'
                 },
                 {
-                    description: 'Developed "MiCafeApp," a website designed to enhance the coffee shop purchasing experience, particularly focusing on the "Take Away" mode. Employed technologies including Angular, Bootstrap, Node.js, and MongoDB to bring the project to fruition.',
+                    description: 'Developed "MiCafeApp," a website designed to enhance the coffee shop purchasing experience, particularly focusing on the \'Take Away\' mode. Employed technologies including Angular, Bootstrap, Node.js, and MongoDB to bring the project to fruition.',
                 }
             ]
         },
@@ -66,6 +66,29 @@ export const DATA = {
                     description: 'Development of a website using the following technologies: React, Node.js, Express, MongoDB, Jira.'
                 },
             ]
+        }
+    ],
+    education: [
+        {
+            university: 'Universidad Tencológica Nacional',
+            degree: 'Technical Degree in Programming',
+            start: '2021',
+            end: '2023',
+            skills: [{name:'C#'}, {name:'.NET'}, {name:'SQL'},{name:'JavaScript'}, {name:'Angular'}, {name:'Jira'}]
+        },
+        {
+            university: 'Centro de e-learning UTN',
+            degree: 'Degree in Full Stack Development',
+            start: '2020',
+            end: '2021',
+            skills: [{name:'JavaScript'}, {name:'Node.js'}, {name:'React'},{name:'MongoDb'}, {name:'Express.js'}, {name:'Jira'}]
+        },
+        {
+            university: 'Universidad Nacional de Córdoba',
+            degree: 'Bachelor\'s Degree in Accounting',
+            start: '2016',
+            end: '2020',
+            skills: [{name:'Accounting'}, {name:'Statistical Data Analysis'}]
         }
     ]
 
