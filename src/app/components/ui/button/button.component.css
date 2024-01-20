@@ -1,0 +1,10 @@
+i {
+    font-size: 1.1rem;
+}
+
+.btn {
+    border: 0.5px solid #b5b8bb;
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-right: 10px;
+}
