@@ -2,26 +2,23 @@
     <div class="col-sm-6">
         <div class="row">
             <div class="col-12 text-sm-start">
-                <h1>Hi! I am <strong class="d-block d-sm-inline-block">Pedro Chincolla</strong></h1>
+                <h1>Hi! I am <strong class="d-block d-sm-inline-block">{{name}}</strong></h1>
                 <p class="role">
-                    Full Stack Developer
+                    {{role}}
                 </p>
                 <p class="location">
                     <img height="22" width="22" src="/assets/icons/flag.png" alt="argentina">
                     From Córdoba, Argentina
                 </p>
                 <p class="location">
-                    <img height="22" width="22" src="/assets/icons/denmark1.png" alt="denmark">
-                    In Copenhagen, Denmark
+                    <img height="22" width="22" [src]="icon_location" alt="denmark">
+                    {{location}}
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 text-sm-start">
-                <app-button [iconClass]="'bi bi-envelope-at-fill'"></app-button>
-                <app-button [iconClass]="'bi bi-github'"></app-button>
-                <app-button [iconClass]="'bi bi-whatsapp'"></app-button>
-                <app-button [iconClass]="'bi bi-linkedin'"></app-button>
+                <app-button *ngFor="let contact of socialMedia" [iconClass]="contact.icon" [href]="contact.href"></app-button>
             </div>
         </div>
     </div>
