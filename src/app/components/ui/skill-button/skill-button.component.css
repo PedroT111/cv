@@ -1,6 +1,14 @@
 .skill-button{
     font-size: 0.8rem;
+    cursor:inherit;
+}
+
+.dark-theme{
     background-color: rgb(0, 0, 0);
     color: white;
-    cursor:inherit;
+}
+
+.light-theme{
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
