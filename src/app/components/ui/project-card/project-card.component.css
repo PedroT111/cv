@@ -1,0 +1,14 @@
+.title{
+    font-size: 1.2rem;
+    font-family: 'mono-bold';
+}
+
+.description{
+    font-size: 0.9rem;
+}
+.title, .description{
+    color: black;
+}
+.card{
+    border-color: rgb(255, 255, 255) 0.2px ;
+}

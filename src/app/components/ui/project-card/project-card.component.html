@@ -1,0 +1,20 @@
+<div class="card p-3 d-flex h-100">
+    <h4 class="title">{{project.title}}</h4>
+    <p class="description">{{project.description}}</p>
+    <div class="row mb-auto">
+        <div class="col-12">
+            <app-skill-button *ngFor="let skill of project.stack" [skill]="skill"
+                [isDarkTheme]="true"></app-skill-button>
+        </div>
+    </div>
+    <div class="row mt-auto">
+        <div class="col-12 d-flex justify-content-end">
+            <app-button [iconClass]="'bi bi-github'" [href]="project.gitHub"
+                [attr.disabled]="!project.gitHub ? true : null" [isDarkIcon]="true">
+            </app-button>
+            <app-button [iconClass]="'bi bi-plus-lg'" [href]="project.gitHub"
+                [attr.disabled]="!project.gitHub ? true : null" [isDarkIcon]="true">
+            </app-button>
+        </div>
+    </div>
+</div>
