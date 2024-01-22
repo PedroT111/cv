@@ -9,3 +9,22 @@
     font-family: 'mono-bold';
     src: url('~assets/fonts/SpaceMono-Bold.ttf');
 }
+
+@font-face {
+    font-family: 'mono-italic';
+    src: url('~assets/fonts/SpaceMono-BoldItalic.ttf');
+}
+
+body {
+    font-family: 'mono', sans-serif;
+    background-color: black;
+}
+
+h1, h2, h3,h4, p, span{
+    color: rgb(226, 225, 225);
+}
+
+h3{
+    font-family: 'mono-bold';
+    font-size: 1.3rem;
+}
