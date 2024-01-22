@@ -2,6 +2,13 @@ i {
     font-size: 1.1rem;
 }
 
+.dark-icon{
+    color: black;
+}
+
+.light-icon{
+    color: white;
+}
 .btn {
     border: 0.5px solid #b5b8bb;
     border-radius: 5px;

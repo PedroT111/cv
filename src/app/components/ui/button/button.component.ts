@@ -7,7 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
   @Input() iconClass: string;
-  @Input() href: string;
+  @Input() href: string | undefined;
+  @Input() isDarkIcon: boolean = false;
   constructor() { }
 
   ngOnInit(): void {

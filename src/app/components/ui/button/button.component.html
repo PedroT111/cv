@@ -1,3 +1,3 @@
-<a class="btn btn-icon" [href]="href" target="_blank">
-    <i [class]="iconClass"></i>
+<a class="btn btn-icon" [href]="href ?? ''" [attr.disabled]="!href ? true : null" target="_blank">
+    <i [class]="iconClass + (isDarkIcon ? ' dark-icon' : ' light-icon')"></i>
 </a>
