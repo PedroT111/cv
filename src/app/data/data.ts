@@ -90,6 +90,27 @@ export const DATA = {
             end: '2020',
             skills: [{name:'Accounting'}, {name:'Statistical Data Analysis'}]
         }
+    ],
+    projects:[
+        {
+            title: 'MiCafeApp',
+            description: 'A website that optimizes the coffee shop purchasing experience, with a focus on the \'Take Away\' mode.',
+            stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Mongodb'],
+            gitHub: 's',
+            router: '/micafeapp'
+        },
+        {
+            title: 'BeerFinder',
+            description: 'A Telegram bot for quick beer price comparisons across supermarkets. Get organized results based on price, simplifying your search for the best deals.',
+            stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Mongodb'],
+            gitHub: 's'
+        },
+        {
+            title: 'Oaxaca Ice Cream Shop',
+            description: 'Comprehensive management system for an ice cream shop as part of a team academic project.',
+            stack: ['Angular', '.Net', 'Entity Framework', 'Java', 'MySQL'],
+            gitHub: 's'
+        }
     ]
 
 }
