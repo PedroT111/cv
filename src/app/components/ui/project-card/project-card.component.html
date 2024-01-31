@@ -9,11 +9,9 @@
     </div>
     <div class="row mt-auto">
         <div class="col-12 d-flex justify-content-end">
-            <app-button [iconClass]="'bi bi-github'" [href]="project.gitHub"
-                [attr.disabled]="!project.gitHub ? true : null" [isDarkIcon]="true">
+            <app-button [iconClass]="'bi bi-github'" [href]="project.gitHub" [isDarkIcon]="true">
             </app-button>
-            <app-button [iconClass]="'bi bi-plus-lg'" [href]="project.gitHub"
-                [attr.disabled]="!project.gitHub ? true : null" [isDarkIcon]="true">
+            <app-button [iconClass]="'bi bi-plus-lg'" [routerLink]="project.router" [isDarkIcon]="true">
             </app-button>
         </div>
     </div>
