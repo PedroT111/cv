@@ -1,3 +1,8 @@
-<a class="btn btn-icon" [href]="href ?? ''" [attr.disabled]="!href ? true : null" target="_blank">
+<a *ngIf="!routerLink; else buttonTemplate" class="btn btn-icon" [href]="href ?? ''" [attr.disabled]="!href ? true : null" target="_blank">
     <i [class]="iconClass + (isDarkIcon ? ' dark-icon' : ' light-icon')"></i>
 </a>
+<ng-template #buttonTemplate>
+    <button class="btn btn-icon" [routerLink]="routerLink">
+        <i [class]="iconClass + (isDarkIcon ? ' dark-icon' : ' light-icon')"></i>
+    </button>
+</ng-template>
