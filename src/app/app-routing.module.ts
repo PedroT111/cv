@@ -5,7 +5,7 @@ import { MicafeappPageComponent } from './pages/micafeapp-page/micafeapp-page.co
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  //{path: 'micafeapp', component: MicafeappPageComponent }
+  {path: 'micafeapp', component: MicafeappPageComponent }
 ];
 
 @NgModule({
