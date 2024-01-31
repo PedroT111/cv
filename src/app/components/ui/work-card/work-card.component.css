@@ -1,17 +1,24 @@
-.company{
+.company {
     font-size: 1.1rem;
     font-family: 'mono-bold';
 }
 
-.role, .period{
+.role,
+.period {
     font-size: 1rem;
 }
 
-.description{
+.description {
     color: rgb(232, 229, 229);
     font-size: 0.85rem;
 }
 
-.job{
-    border-bottom: 1px solid rgb(126, 126, 126);
+.job:hover {
+    background: linear-gradient(45deg, #000000 0%, #222222 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Borde 3D */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    overflow: hidden;
 }
