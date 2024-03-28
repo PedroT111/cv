@@ -1,8 +1,19 @@
-.skill-button{
-    font-size: 0.8rem;
+.btn{
+    margin-right: 3px;
     cursor:inherit;
 }
-
+.small{
+    font-size: 0.8rem;
+    padding: 1px;
+}
+.medium {
+    font-size: 1rem;
+  }
+  
+  .large {
+    font-size: 1.2rem;
+  }
+  
 .dark-theme{
     background-color: rgb(0, 0, 0);
     color: white;

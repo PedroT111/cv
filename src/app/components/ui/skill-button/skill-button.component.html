@@ -1,1 +1,1 @@
-<button [class.dark-theme]="isDarkTheme" [class.light-theme]="!isDarkTheme" class="btn skill-button py-0 mx-1">{{skill}}</button>
+<button [ngClass]="{ 'small': size === 'small', 'medium': size === 'medium'}" [class.dark-theme]="isDarkTheme" [class.light-theme]="!isDarkTheme" class="btn">{{skill}}</button>

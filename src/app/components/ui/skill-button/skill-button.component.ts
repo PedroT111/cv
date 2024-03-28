@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SkillButtonComponent implements OnInit {
   @Input() skill: string;
   @Input() isDarkTheme: boolean = false;
+  @Input() size: 'small' | 'medium' | 'large';
   constructor() { }
 
   ngOnInit(): void {
