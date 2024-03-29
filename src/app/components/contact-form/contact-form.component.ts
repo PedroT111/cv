@@ -41,7 +41,7 @@ export class ContactFormComponent implements OnInit, OnDestroy {
       this.submitting = true;
       const formElement = this.myForm.nativeElement;
       this.subscribe.add(
-        this.emailService.sendEmail('service_p3gznon', 'template_ns827dm', formElement, 'JOEr9MraH5z4o-OMO').subscribe({
+        this.emailService.sendEmail(formElement).subscribe({
           next: (res) => {
             this.submitting = false;
             this.submissionSuccess = true;

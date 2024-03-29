@@ -23,7 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { SuccessMsgComponent } from './components/success-msg/success-msg.component';
 import { ErrorMsgComponent } from './components/error-msg/error-msg.component';
 import { ContactComponent } from './components/contact/contact.component';
-
+import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
+import { environment } from 'src/environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +52,9 @@ import { ContactComponent } from './components/contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxGoogleAnalyticsModule.forRoot(environment.google_analytics_id),
+    NgxGoogleAnalyticsRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
