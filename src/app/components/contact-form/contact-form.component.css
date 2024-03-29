@@ -1,0 +1,29 @@
+.title{
+    font-size: 1.2rem;
+    font-family: 'mono-bold';
+}
+.custom-control {
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: .375rem .75rem;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+}
+
+.custom-control:focus {
+    outline: 0;
+}
+
+.custom-control::placeholder {
+    color: rgb(255, 255, 255);
+}
+.custom-control:-webkit-autofill,
+.custom-control:-webkit-autofill:hover,
+.custom-control:-webkit-autofill:focus,
+.custom-control:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px black inset !important; 
+    -webkit-text-fill-color: white !important;
+}
+

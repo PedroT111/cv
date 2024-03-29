@@ -1,5 +1,35 @@
-<div class="row bg-light">
-    <div class="col-12">
-        <h3>Contact</h3>
+<form #myForm [formGroup]="form" (ngSubmit)="sendEmail()">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" class="custom-control" id="name" placeholder="Name" formControlName="name" name="name">
+            <app-error-msg [form]="form" [inputName]="'name'"></app-error-msg>
+        </div>
+        <div class="col-md-6">
+            <input type="text" class="custom-control" id="lastName" placeholder="Last Name" formControlName="lastName"
+                name="lastName">
+            <app-error-msg [form]="form" [inputName]="'lastName'"></app-error-msg>
+        </div>
     </div>
+    <div class="row mb-3 ">
+        <div class="col-12">
+            <input type="email" class="custom-control" id="email" placeholder="Email" formControlName="email"
+                name="email">
+            <app-error-msg [form]="form" [inputName]="'email'"></app-error-msg>
+        </div>
+    </div>
+    <div class="row mb-3 ">
+        <div class="col-12">
+            <textarea class="custom-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px" formControlName="msg" name="msg"></textarea>
+            <app-error-msg [form]="form" [inputName]="'msg'"></app-error-msg>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 d-flex justify-content-end">
+            <button type="submit" class="btn btn-light px-5">{{submitting ? 'Submitting' : 'Send'}}</button>
+        </div>
+    </div>
+</form>
+<div *ngIf="submissionSuccess">
+    <app-success-msg></app-success-msg>
 </div>
