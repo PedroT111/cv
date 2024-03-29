@@ -5,11 +5,13 @@ import { MicafeappPageComponent } from './pages/micafeapp-page/micafeapp-page.co
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'micafeapp', component: MicafeappPageComponent }
+  {path: 'project-micafeapp', component: MicafeappPageComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration:'top'
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
