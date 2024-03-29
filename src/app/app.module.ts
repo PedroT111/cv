@@ -24,7 +24,7 @@ import { SuccessMsgComponent } from './components/success-msg/success-msg.compon
 import { ErrorMsgComponent } from './components/error-msg/error-msg.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
-import { environment } from 'src/environments/environment';
+import { environment } from 'src/environments/environment.common';
 @NgModule({
   declarations: [
     AppComponent,
