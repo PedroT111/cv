@@ -7,7 +7,7 @@ export const MI_CAFE_DATA = {
     admin_tool_sections: [
         {
             title: 'Products',
-            img: ['admin1.png'],
+            img: ['admin8.png'],
             description: "Allows you to add, edit, or delete products from the café's inventory. This tool facilitates product management, including price updates, image uploading, and category organization."
         },
         {
