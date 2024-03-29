@@ -96,20 +96,26 @@ export const DATA = {
             title: 'MiCafeApp',
             description: 'A website that optimizes the coffee shop purchasing experience, with a focus on the \'Take Away\' mode.',
             stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Mongodb'],
-            gitHub: 's',
+            gitHub: 'https://github.com/PedroT111/miCafe',
             router: '/project-micafeapp'
         },
         {
             title: 'BeerFinder',
             description: 'A web platform leveraging web scraping techniques to compile and compare beer prices from diverse supermarkets, offering users a comprehensive overview of available options and facilitating informed purchasing decisions',
             stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Puppeteer'],
-            gitHub: 's'
+            gitHub: 'https://github.com/PedroT111/beerFinderApp'
         },
         {
             title: 'Oaxaca Ice Cream Shop',
             description: 'Comprehensive management system for an ice cream shop as part of a team academic project.',
             stack: ['Angular', '.Net', 'Entity Framework', 'Java', 'MySQL'],
-            gitHub: 's'
+            gitHub: 'https://github.com/PedroT111/2022_TUP_2W1_TPI_05'
+        },
+        {
+            title: 'BlackJack',
+            description: 'Development of a blackjack game as an Integrative Practical Work for the subject Porgramming 3 of the University Technical Degree in Programming at UTN FRC.',
+            stack: ['Angular', 'Nodejs', 'MySQL', 'Sequelize', 'Bootstrap'],
+            gitHub: 'https://github.com/PedroT111/BlackJack/tree/terceraEntrega'
         }
     ]
 
