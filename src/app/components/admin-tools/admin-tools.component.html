@@ -1,0 +1,23 @@
+<div class="row mt-5">
+    <div class="col-12 col-lg-4 py-3 sticky-column">
+        <div class="row mb-2">
+            <div class="col-12">
+                <h3 class="">Admin Tools</h3>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-12">
+                <p class="description">{{data.admin_tool_description}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-8 py-3 px-0 px-md-4 scrolleable">
+        <div class="row mb-2" *ngFor="let tool of data.admin_tool_sections">
+            <div class="col-12">
+                <img [src]="'../../../assets/img/' + tool.img" class="d-block w-100 mb-3" alt="imgAdmin">
+                <span>{{tool.title}}</span>
+                <p class="description tool-desc">{{tool.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>

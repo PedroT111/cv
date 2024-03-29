@@ -1,0 +1,22 @@
+.description {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 30px;
+}
+
+.tool-desc{
+    font-size: 0.9rem;
+}
+
+@media (min-width: 1000px) {
+    .sticky-column {
+        position: sticky;
+        top: 0;
+        height: 100%;
+    }
+
+    .scrollable {
+        height: 100vh;
+        overflow-y: auto;
+    }
+}
