@@ -97,12 +97,12 @@ export const DATA = {
             description: 'A website that optimizes the coffee shop purchasing experience, with a focus on the \'Take Away\' mode.',
             stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Mongodb'],
             gitHub: 's',
-            router: '/micafeapp'
+            router: '/project-micafeapp'
         },
         {
             title: 'BeerFinder',
-            description: 'A Telegram bot for quick beer price comparisons across supermarkets. Get organized results based on price, simplifying your search for the best deals.',
-            stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Mongodb'],
+            description: 'A web platform leveraging web scraping techniques to compile and compare beer prices from diverse supermarkets, offering users a comprehensive overview of available options and facilitating informed purchasing decisions',
+            stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Puppeteer'],
             gitHub: 's'
         },
         {
