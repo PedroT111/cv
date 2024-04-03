@@ -2,7 +2,7 @@ export const MI_CAFE_DATA = {
     summary: "MiCafeApp is the perfect solution to modernize and streamline the café experience. With our application, users can order their favorite coffee from the comfort of their mobile device, without the need to wait in long lines. Simply select your preferred products, schedule the pickup time, and you're all set!", 
     technologies: ['Angular', 'Nodejs', 'TypeScript', 'Express', 'MongoDB', 'Bootstrap'],
     app_image_url: '',
-    url: 'https://micafeapp.netlify.app/',
+    url: 'https://mi-cafe-app.vercel.app',
     github: 'https://github.com/PedroT111/miCafe',
     summary_2: "For coffee lovers who are always on the go, MiCafeApp offers the convenience of planning their orders in advance, ensuring their coffee is ready and waiting for them upon arrival at the café.",
     admin_tool_description: 'Additionally, MiCafeApp provides cafés with the necessary tools to efficiently manage their business. From inventory management and creating offers and discounts, to tracking orders and generating detailed reports, our platform helps optimize operations and enhance customer satisfaction.',
