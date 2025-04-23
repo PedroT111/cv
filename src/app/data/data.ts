@@ -1,8 +1,9 @@
 export const DATA = {
     name: 'Pedro Chincolla',
-    role: 'Full Stack Developer',
+    role: 'Data Scientist - Developer',
     location: 'In Copenaghen, Denmark',
     icon_location: '/assets/icons/denmark1.png',
+    img: 'DSC04022.JPG',
     contact: [
         {
             name: 'mail',
@@ -29,13 +30,24 @@ export const DATA = {
             
         }
     ],
-    about: 'As a programmer, I stand out for propelling my career with a fervent passion for crafting innovative technological solutions. Currently, I work mostly with Angular, Node.js, SQL, and MongoDB. I seek challenges that stimulate creativity, generate a transformative impact, and allow me to contribute to innovative development.',
+    about: 'Data enthusiast with a strong background in software development, currently focused on building intelligent, data-driven solutions using Python, SQL, and statistical analysis. Passionate about solving real-world problems through analytics, creativity, and innovative technology.',
     jobs: [
+        {
+            company: 'Factorise Solutions',
+            role: 'JavaScript Developer',
+            start: 'May 2024',
+            end: 'Aug 2024',
+            tasks: [
+                {
+                    description: 'Front-end related developer tasks concerning the core products: GenAI Chatbot, Learning Platform and Investment Community'
+                },
+            ]
+        },
         {
             company: 'Freelance',
             role: 'Full Stack Developer',
             start: 'Apr 2021',
-            end: 'Now',
+            end: 'Aug 2024',
             tasks: [
                 {
                     description: 'Frontend development of a cryptocurrency website. Utilized technologies such as React, Bootstrap, HTML5, and CSS3 to create an engaging user interface.'
@@ -70,18 +82,18 @@ export const DATA = {
     ],
     education: [
         {
+            university: 'Universidad del Gran Rosario',
+            degree: "Bachelor's degree in Data Science",
+            start: '2025',
+            end: '2027',
+            skills: [{name:'Python'}, {name:'Pandas'},  {name:'Statistics'},  {name:'Exploratory Data Analysis (EDA)'}, {name:'SQL'}, {name: 'MongoDB (NoSQL)'}]
+        },
+        {
             university: 'Universidad Tencológica Nacional',
             degree: 'Technical Degree in Programming',
             start: '2021',
             end: '2023',
             skills: [{name:'C#'}, {name:'.NET'}, {name:'SQL'},{name:'JavaScript'}, {name:'Angular'}, {name:'Jira'}]
-        },
-        {
-            university: 'Centro de e-learning UTN',
-            degree: 'Degree in Full Stack Development',
-            start: '2020',
-            end: '2021',
-            skills: [{name:'JavaScript'}, {name:'Node.js'}, {name:'React'},{name:'MongoDb'}, {name:'Express.js'}, {name:'Jira'}]
         },
         {
             university: 'Universidad Nacional de Córdoba',
@@ -104,12 +116,6 @@ export const DATA = {
             description: 'A web platform leveraging web scraping techniques to compile and compare beer prices from diverse supermarkets, offering users a comprehensive overview of available options and facilitating informed purchasing decisions',
             stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Puppeteer'],
             gitHub: 'https://github.com/PedroT111/beerFinderApp'
-        },
-        {
-            title: 'Oaxaca Ice Cream Shop',
-            description: 'Comprehensive management system for an ice cream shop as part of a team academic project.',
-            stack: ['Angular', '.Net', 'Entity Framework', 'Java', 'MySQL'],
-            gitHub: 'https://github.com/PedroT111/2022_TUP_2W1_TPI_05'
         },
         {
             title: 'BlackJack',
