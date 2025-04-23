@@ -12,6 +12,7 @@ export class ProfileComponent implements OnInit {
   socialMedia = DATA.contact;
   location: string = DATA.location;
   icon_location: string = DATA.icon_location;
+  img: string = DATA.img
   constructor() { }
 
   ngOnInit(): void {
