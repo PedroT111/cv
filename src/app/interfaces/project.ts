@@ -3,5 +3,6 @@ export interface Project{
     description: string;
     stack?: string[] | undefined;
     gitHub?: string | undefined;
+    colab?: string | undefined;
     router?: string | undefined;
 }

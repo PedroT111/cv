@@ -36,6 +36,7 @@ export class ContactFormComponent implements OnInit, OnDestroy {
   ngOnInit(): void {}
 
   sendEmail() {
+    console.log(this.form);
     this.form.markAllAsTouched();
     if (this.form.valid) {
       this.submitting = true;
@@ -43,6 +44,7 @@ export class ContactFormComponent implements OnInit, OnDestroy {
       this.subscribe.add(
         this.emailService.sendEmail(formElement).subscribe({
           next: (res) => {
+            console.log(res)
             this.submitting = false;
             this.submissionSuccess = true;
             this.form.reset();

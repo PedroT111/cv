@@ -1,9 +1,9 @@
 export const DATA = {
     name: 'Pedro Chincolla',
-    role: 'Data Scientist - Developer',
+    role: 'Data Scientist',
     location: 'In Copenaghen, Denmark',
     icon_location: '/assets/icons/denmark1.png',
-    img: 'DSC04022.JPG',
+    img: 'profile.jpeg',
     contact: [
         {
             name: 'mail',
@@ -39,7 +39,10 @@ export const DATA = {
             end: 'Aug 2024',
             tasks: [
                 {
-                    description: 'Front-end related developer tasks concerning the core products: GenAI Chatbot, Learning Platform and Investment Community'
+                    description: 'Built data-driven dashboards in collaboration with data scientists to visualize analytics for chatbot, learning, and investment platforms.'
+                },
+                {
+                    description: 'Enhanced user experience by integrating data visualization techniques into front-end systems.'
                 },
             ]
         },
@@ -47,24 +50,30 @@ export const DATA = {
             company: 'Freelance',
             role: 'Full Stack Developer',
             start: 'Apr 2021',
-            end: 'Aug 2024',
+            end: 'Dec 2023',
             tasks: [
                 {
-                    description: 'Frontend development of a cryptocurrency website. Utilized technologies such as React, Bootstrap, HTML5, and CSS3 to create an engaging user interface.'
+                    description: 'Developed and optimized a cryptocurrency platform with React, Node.js, and MongoDB, implementing a data pipeline for transaction tracking and analytics.'
                 },
                 {
-                    description: 'Developed "MiCafeApp," a website designed to enhance the coffee shop purchasing experience, particularly focusing on the \'Take Away\' mode. Employed technologies including Angular, Bootstrap, Node.js, and MongoDB to bring the project to fruition.',
+                    description: 'Created MiCafeApp, an application that collected and processed customer order data, enabling insights into sales performance and business optimization.',
                 }
             ]
         },
         {
             company: 'Accounting Firm',
-            role: 'Administrative Assistant',
-            start: 'Sep 2020',
+            role: 'Data Analyst',
+            start: 'Sep 2019',
             end: 'Nov 2022',
             tasks: [
                 {
-                    description: 'Responsible for the preparation of financial statements, accounting, tax settlement, and payroll.'
+                    description: 'Automated financial data workflows using Excel, increasing efficiency in payroll and tax reporting.'
+                },
+                {
+                    description: 'Reduced the time required to prepare balance sheets by applying advanced Excel functions and process automation.'
+                },
+                {
+                    description: 'Processed and analyzed structured financial data with attention to accuracy and compliance.'
                 },
             ]
         },
@@ -75,7 +84,10 @@ export const DATA = {
             end: 'Nov 2021',
             tasks: [
                 {
-                    description: 'Development of a website using the following technologies: React, Node.js, Express, MongoDB, Jira.'
+                    description: 'Contributed to development of web applications using React, Node.js, and MongoDB with focus on data integration and visualization'
+                },
+                {
+                    description: 'Applied Agile methodologies (Scrum), participated in sprints, and collaborated with teams on analytics solutions.'
                 },
             ]
         }
@@ -86,7 +98,7 @@ export const DATA = {
             degree: "Bachelor's degree in Data Science",
             start: '2025',
             end: '2027',
-            skills: [{name:'Python'}, {name:'Pandas'},  {name:'Statistics'},  {name:'Exploratory Data Analysis (EDA)'}, {name:'SQL'}, {name: 'MongoDB (NoSQL)'}]
+            skills: [{name:'Python'}, {name:'Pandas'},  {name:'Statistics'},  {name:'Machine Learning (Regression Models, Decision Trees, k-NN, Clustering)'}, {name:'SQL'}, {name: 'MongoDB (NoSQL)'}]
         },
         {
             university: 'Universidad Tencológica Nacional',
@@ -105,17 +117,23 @@ export const DATA = {
     ],
     projects:[
         {
+            title: 'Analyzing the Impact of Fare Changes on Subway Demand in Buenos Aires',
+            description: 'Analysis of how subway fare changes affect ridership in Buenos Aires, using data-driven modeling to understand demand sensitivity and support public policy planning.',
+            stack: ['Python', 'Pandas', 'Data Visualitation', 'Regression Modeling'],
+            gitHub: 'https://github.com/PedroT111/BlackJack/tree/terceraEntrega'
+        },
+        {
+            title: 'Global Greenhouse Gas Emissions Analysis (FAO Data Project)',
+            description: 'Data science project analyzing FAO’s global GHG emissions data through preprocessing, exploration, and ARIMA modeling to forecast emission trends.',
+            stack: ['Python', 'Pandas', 'Numpy', 'Matplotlib', 'Statsmodels', 'Machine Learning', 'ARIMA'],
+            colab: 'https://colab.research.google.com/drive/19sFsi1XLGJfgtcMNxM5pbpErVsDUZfnk?usp=sharing'
+        },
+        {
             title: 'MiCafeApp',
             description: 'A website that optimizes the coffee shop purchasing experience, with a focus on the \'Take Away\' mode.',
             stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Mongodb'],
             gitHub: 'https://github.com/PedroT111/miCafe',
             router: '/project-micafeapp'
-        },
-        {
-            title: 'BeerFinder',
-            description: 'A web platform leveraging web scraping techniques to compile and compare beer prices from diverse supermarkets, offering users a comprehensive overview of available options and facilitating informed purchasing decisions',
-            stack: ['Angular', 'Nodejs', 'Express', 'Bootstrap', 'Puppeteer'],
-            gitHub: 'https://github.com/PedroT111/beerFinderApp'
         },
         {
             title: 'BlackJack',
