@@ -3,15 +3,20 @@
     <p class="description">{{project.description}}</p>
     <div class="row mb-auto">
         <div class="col-12">
-            <app-skill-button *ngFor="let skill of project.stack" [skill]="skill"
-                [isDarkTheme]="true" [size]="'small'"></app-skill-button>
+            <app-skill-button *ngFor="let skill of project.stack" [skill]="skill" [isDarkTheme]="true"
+                [size]="'small'"></app-skill-button>
         </div>
     </div>
     <div class="row mt-auto">
         <div class="col-12 d-flex justify-content-end">
-            <app-button *ngIf="project.gitHub" [iconClass]="'bi bi-github'" [href]="project.gitHub" [isDarkIcon]="true"></app-button>
-            <app-button *ngIf="project.colab" [iconClass]="'bi bi-google'" [href]="project.colab" [isDarkIcon]="true"></app-button>
-            <app-button *ngIf="project.router" [iconClass]="'bi bi-plus-lg'" [routerLink]="project.router" [isDarkIcon]="true"></app-button>
+            <app-button *ngIf="project.gitHub" [iconClass]="'bi bi-github'" [href]="project.gitHub"
+                [isDarkIcon]="true"></app-button>
+            <app-button *ngIf="project.colab" [iconClass]="'bi bi-google'" [href]="project.colab"
+                [isDarkIcon]="true"></app-button>
+            <app-button *ngIf="project.link" [iconClass]="'bi bi-link'" [href]="project.link"
+                [isDarkIcon]="true"></app-button>
+            <app-button *ngIf="project.router" [iconClass]="'bi bi-plus-lg'" [routerLink]="project.router"
+                [isDarkIcon]="true"></app-button>
         </div>
     </div>
 </div>
