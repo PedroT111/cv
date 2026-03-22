@@ -123,6 +123,19 @@ export const DATA = {
   ],
   projects: [
     {
+      title: 'Denmark Energy Transition',
+      description:
+        'Analysis of Denmark’s electricity system using Energinet data (2015–2024). Focus: structural transition (wind ↑, fossil ↓, CO₂ ↓), seasonality and system drivers.',
+      stack: [
+        'Python',
+        'Pandas',
+        'Streamlit',
+        'Data Visualization',
+        'Data Analysis',
+      ],
+      link: 'https://denmark-energy-analysis.streamlit.app/',
+    },
+    {
       title:
         'Classification of Prison Recidivism Trajectory in Argentina (SNEEP)',
       description:
