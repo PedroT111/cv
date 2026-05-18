@@ -1,15 +1,25 @@
-.title{
-    font-size: 1.2rem;
+.title {
+    font-size: 1.05rem;
     font-family: 'mono-bold';
+    color: rgb(226, 225, 225);
 }
 
-.description{
-    font-size: 0.9rem;
+.description {
+    font-size: 0.85rem;
+    color: rgb(165, 165, 165);
+    line-height: 1.5;
 }
-.title, .description{
-    color: black;
+
+.card {
+    background-color: #0f0f0f;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    min-height: 320px;
+    transition: var(--transition, all 0.25s ease);
 }
-.card{
-    border-color: rgb(255, 255, 255) 0.2px ;
-    min-height: 340px;
+
+.card:hover {
+    border-color: rgba(255, 255, 255, 0.22) !important;
+    box-shadow: 0 6px 28px rgba(0, 0, 0, 0.6);
+    transform: translateY(-3px);
 }

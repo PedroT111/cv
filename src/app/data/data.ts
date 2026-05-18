@@ -3,7 +3,7 @@ export const DATA = {
   role: 'Data Analyst & Junior Data Scientist',
   location: 'In Copenaghen, Denmark',
   icon_location: '/assets/icons/denmark1.png',
-  img: 'profile.jpeg',
+  img: 'profile.png',
   contact: [
     {
       name: 'mail',
@@ -93,7 +93,13 @@ export const DATA = {
         { name: 'Pandas' },
         { name: 'Statistics' },
         {
-          name: 'Machine Learning (Regression Models, Decision Trees, k-NN, Clustering)',
+          name: 'Machine Learning ',
+        },
+        {
+          name: 'Deep Learning ',
+        },
+        {
+          name: 'Computer Vision',
         },
         { name: 'SQL' },
         { name: 'MongoDB (NoSQL)' },
@@ -122,6 +128,21 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title:
+        'Laguna Mar Chiquita — Spatio-temporal Surface Analysis (In Progress)',
+      description:
+        'Satellite-based analysis of Laguna Mar Chiquita (Córdoba, Argentina) using Landsat/Sentinel-2 imagery and NDWI/MNDWI spectral indices to build a monthly surface time series. Compares statistical and ML models to predict surface area from climate variables (precipitation, temperature) to support environmental management.',
+      stack: [
+        'Python',
+        'Pandas',
+        'Numpy',
+        'Scikit-learn',
+        'Matplotlib',
+        'Google Earth Engine',
+        'Machine Learning',
+      ],
+    },
     {
       title: 'Denmark Energy Transition',
       description:
