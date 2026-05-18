@@ -15,16 +15,59 @@
     src: url('~assets/fonts/SpaceMono-BoldItalic.ttf');
 }
 
+:root {
+    --color-bg: #000000;
+    --color-bg-elevated: #0d0d0d;
+    --color-bg-card: #111111;
+    --color-border: rgba(255, 255, 255, 0.1);
+    --color-border-hover: rgba(255, 255, 255, 0.3);
+    --color-text: rgb(226, 225, 225);
+    --color-text-muted: rgb(160, 160, 160);
+    --transition: all 0.25s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'mono', sans-serif;
-    background-color: black;
+    background-color: var(--color-bg);
 }
 
-h1, h2, h3,h4,h5, p, span{
-    color: rgb(226, 225, 225);
+h1, h2, h3, h4, h5, p, span {
+    color: var(--color-text);
 }
 
-h3{
+h3 {
     font-family: 'mono-bold';
     font-size: 1.3rem;
+    padding-bottom: 0.6rem;
+    position: relative;
+}
+
+h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 36px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #000;
+}
+::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
 }

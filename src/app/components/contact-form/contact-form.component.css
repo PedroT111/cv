@@ -9,15 +9,17 @@
     padding: .375rem .75rem;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: border-color 0.2s ease;
 }
 
 .custom-control:focus {
     outline: 0;
+    border-bottom-color: rgba(255, 255, 255, 0.7);
 }
 
 .custom-control::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgb(120, 120, 120);
 }
 .custom-control:-webkit-autofill,
 .custom-control:-webkit-autofill:hover,

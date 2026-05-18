@@ -1,17 +1,25 @@
 i {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
 }
 
-.dark-icon{
-    color: black;
+.dark-icon {
+    color: rgb(226, 225, 225);
 }
 
-.light-icon{
-    color: white;
+.light-icon {
+    color: rgb(226, 225, 225);
 }
+
 .btn {
-    border: 0.5px solid #b5b8bb;
-    border-radius: 5px;
-    padding: 4px 8px;
-    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    transition: var(--transition, all 0.25s ease);
+}
+
+.btn:hover {
+    border-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.05);
 }
